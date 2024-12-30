@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Guarida</title>
+    <link rel="stylesheet" href="styless.css">
+    <script src="script.js" defer></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+   
+    <header>
+        <nav>
+            <audio autoplay loop>
+                <source src="Imagenes/Snowman.mp3" type="audio/mpeg">
+            </audio>
+        </nav>
+        <h1>La Guarida</h1>
+        <nav>
+            <ul>
+                <li><a href="#libros">Libros</a></li>
+                <li><a href="#reseña">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#carrito">Mis Compras</a></li>
+            </ul>
+        </nav>
+        <a href="#top"><div class="boton">V</div></a>
+    </header>
+
+
+   
+
+
+
+    <main>
+        <section id="libros">
+            <h2 class="titulo-central">Libros</h2>
+            <div class="libros-a">
+                <div class="libros-b">
+                    <img src="Imagenes/libro1.jpg" alt="libro 1" width="300" height="370">
+                    <h3>"Comunicación y Lenguaje en la infancia"</h3>
+                    <p>$27.000</p>
+                    <button type="submit">Lo quiero!</button>
+                </div>
+                <div class="libros-b">
+                    <img src="Imagenes/libro2.jpg" alt="Libro 2" width="300" height="370">
+                    <h3>"Harry Potter y la piedra filosofal"</h3>
+                    <p>$30.0000.</p>
+                    <button type="submit">Lo quiero!</button>
+                </div>
+                <div class="libros-b">
+                    <img src="Imagenes/libro3.jpg" alt="Libro 3" width="300" height="370">
+                    <h3>"Alicia en el pais de las maravillas"</h3>
+                    <p>$25.000.</p>
+                    <button type="submit">Lo quiero!</button>
+                </div>
+        </section>
+
+        <section id="reseña">
+            <h2 class="titulo-central">Reseñas</h2>
+            <div id=" reseña-a">
+
+                <div class="reseña1">
+                    <img class="imagen4" src="Imagenes/elotroyo.jpg" alt="elotroyo">
+                    <div class="texto-reseña4">
+                        <h3 class="texto-titulo">"El otro yo"<h3>
+                                <p class="parrafo-reseña">Todo empieza con un diagnóstico el alzhéimer en estado
+                                    avanzado del prestigioso escritor Ángel Cué, en ese momento decide retirarse de la
+                                    vida pública pero antes le deja a su único hijo un legado muy valioso: la custodia
+                                    de cinco manuscritos para que vayan saliendo a la luz cuando a él le resulte
+                                    imposible reconocer a nadie. A partir de este momento la vida de Mateo cambia de
+                                    forma radical y se ve envuelto en una pirámide de mentiras y engaños de la que le
+                                    resulta cada vez más difícil salir airoso. ¿hasta donde estarías dispuesto a llegar
+                                    para mantener limpia tu reputación?</p>
+                    </div>
+                </div>
+
+                <div class="reseña2">
+                    <div class="texto-reseña4">
+                        <h3 class="texto-titulo">"La chica que jugaba al ajedrez en Auschwitz."<h3>
+                                <p class="parrafo-reseña"  >Maria Florkowska, además de una excelente jugadora de ajedrez,
+                                    es también miembro de la Resistencia polaca en la Varsovia ocupada por los nazis.
+                                    Arrestada por la Gestapo y deportada a Auschwitz como prisionera política, la joven
+                                    se resigna a su propio destino. Pero cuando el despiadado Lagerführer Karl Fritzsch
+                                    descubre su extraordinario talento para jugar al ajedrez, decide entretener al resto
+                                    de guardias desafiándola a un extenuante y sádico torneo.</p>
+                    </div>
+                    <img class="imagen4" src="Imagenes/lachicadelajedrez.jpg" alt="lachicadelajedrez">
+
+                </div>
+
+                <div class="reseña3">
+                    <img class="imagen4" src="Imagenes/mientrasteencuentre.jpg" alt="mientrasteencuentre">
+                    <div class="texto-reseña4">
+                        <h3 class="texto-titulo">"Mientras te encuentre."</h3>
+                        <p class="parrafo-reseña">«Mientras te encuentro» es una novela con tintes románticos que cuenta
+                            la historia de Julia, un alma libre que busca su lugar en el mundo. Se siente algo oprimida
+                            viviendo en un pueblo pequeño y gracias a su trabajo tiene la oportunidad de viajar y
+                            conocer otros lugares y gente. Para Julia lo más importante es prosperar en su trabajo,
+                            luchar por conseguir aquello que la llene y le haga sentirse útil, pero sin olvidar esa
+                            búsqueda incansable de alguien que la complemente, que le acompañe en sus sueños y le haga
+                            feliz.</p>
+                    </div>
+                </div>
+
+               
+
+            </div>
+        </section>
+
+        <section id="carrito">
+            <h2 class="titulo-central">Mis compras</h2>
+            <div id="productos-carrito">
+            </div>
+            <p id="total">Total:$0</p>
+        </section>
+
+
+        <section id="contacto">
+            <h2 class="titulo-central">Contacto</h2>
+            <form action="https://formspree.io/f/xqakagva" method="POST">
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+                <input type="email" name="email" id="email" placeholder="Escribe tu email">
+                <textarea name="mensaje" id="mensaje" rows="4" cols="50" placeholder="Escribe tu
+               mensaje"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; Tienda de Libros.</p>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>

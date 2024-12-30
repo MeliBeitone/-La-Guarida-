@@ -1,0 +1,217 @@
+.bitter {
+    font-family: "bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  body {
+      font-family: serif, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f0f0f0, #ffffff);
+  }
+  
+  header {
+      background-color: cadetblue;
+      color: white;
+      padding: 20px;
+      text-align: center;
+  }
+  .boton{
+      border-radius: 100%;
+      background-color: cadetblue;
+      position: fixed;
+      width: 75px;
+      height: 75px;
+      bottom: 50px;
+      right: 50px;
+      text-align: center;
+      font-size: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      rotate: 180deg;
+      color: white;
+  }
+  nav ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  nav ul li {
+      display: inline;
+      margin: 0 15px;
+  }
+  
+  nav ul li a {
+      color: white;
+      text-decoration: none;
+  }
+  
+  h1{
+      font-size: 60px;
+      
+  }
+  
+  .titulo-central {
+      text-align: center;
+      margin-top: 80px;
+      font-size: 40px;
+  }
+  
+  
+  .libros-a {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+  
+  .libros-b {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 40px;
+      margin: 0.5rem;
+      text-align: center;
+      width: 285px;
+  
+  }
+  
+  .reseña {
+      background: #eee;
+      padding: 10px;
+      border-radius: 5px;
+      display: flex;
+      flex-flow: row wrap;
+  }
+  
+  .reseña1 {
+  
+  
+      gap: 10px;
+      padding: 20px;
+      background: #d8f8e1;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 20px;
+  
+      display: grid;
+      grid-template-columns: 50% 30%;
+  
+      text-align: center;
+  
+  
+  }
+  
+  .reseña2 {
+  
+  
+      gap: 10px;
+      padding: 20px;
+      background: #e6e6fa;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 20px;
+      font-weight: 100;
+  
+      display: grid;
+      grid-template-columns: 50% 50%;
+  
+      text-align: center;
+  
+  }
+  
+  .reseña3 {
+  
+  
+      gap: 10px;
+      padding: 20px;
+      background: #b2e2f2;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 20px;
+  
+      display: grid;
+      grid-template-columns: 50% 30%;
+  
+      text-align: center;
+  
+  }
+  
+  .imagen4 {
+      width: 45%;
+      display: block;
+      margin: auto;
+  }
+  
+  
+  .parrafo-reseña {
+  
+      font-weight: 100;
+      font-size: 20px;
+      
+  
+  }
+  
+  .texto-reseña4{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+  .texto-titulo {
+      font-size: 25px;
+  }
+  
+  
+  form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  form label {
+      margin: 10px 0 5px;
+  }
+  
+  form input,
+  form textarea {
+      width: 300px;
+      padding: 10px;
+      margin-bottom: 10px;
+  }
+  
+  footer {
+      text-align: center;
+      padding: 20px;
+      background-color: cadetblue;
+      color: white;
+  }
+
+  #carrito {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+#productos-carrito {
+    display: flex;
+    flex-direction: column;
+}
+
+.producto-carrito {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#total {
+    font-size: 20px;
+    margin-top: 20px;
+}
